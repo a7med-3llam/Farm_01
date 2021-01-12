@@ -2,7 +2,7 @@
 //copyright © Angry Black 2020.//❦Angry Black❦
 
 const Discord = require("discord.js");
-const myid = ['Your ID'];//هنا بتحط الايدى بتاعك بتاع الديسكورد
+const myid = ['622314915973300225'];//
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
@@ -390,8 +390,8 @@ client.on('message', message => {
 if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 30000; x++) {
-        message.channel.send(`**??? ???? ??? **[ " ${x} " ]`)
+      for(let x = 0; x < 10000; x++) {
+        message.channel.send(`** money **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
